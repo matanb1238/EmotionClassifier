@@ -149,7 +149,7 @@ def run_experiment(vector_type, clean_column, model_name):
     })
 
 # 📘 SECTION 7 – Run All Experiments
-models = ["adaboost"]
+models = ["svm", "random_forest", "adaboost"]
 vectors = ["word2vec","tfidf", "bow"]
 cleans = ["fully_clean"]
 
